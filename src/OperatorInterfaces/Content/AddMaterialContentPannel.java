@@ -71,7 +71,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
 
         SearchButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         SearchButton.setText("Buscar");
-        SearchButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        SearchButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         SearchButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SearchButtonActionPerformed(evt);
@@ -92,7 +92,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
         });
 
         QuantSpinner.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        QuantSpinner.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        QuantSpinner.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Cantidad");
@@ -101,11 +101,11 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
         jLabel5.setText("Cantidad Mínima");
 
         MinQuantSpinner.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        MinQuantSpinner.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        MinQuantSpinner.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         CancelButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         CancelButton.setText("Cancelar");
-        CancelButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        CancelButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         CancelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CancelButtonActionPerformed(evt);
@@ -114,7 +114,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
 
         AcceptButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         AcceptButton.setText("Aceptar");
-        AcceptButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        AcceptButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         AcceptButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AcceptButtonActionPerformed(evt);
@@ -158,8 +158,8 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
                                 .addGap(18, 18, 18)
                                 .addComponent(MinQuantSpinner, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(DepartmentTextField)
-                            .addComponent(ProviderTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(121, Short.MAX_VALUE))
+                            .addComponent(ProviderTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(96, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -187,7 +187,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CancelButton)
                     .addComponent(AcceptButton))
-                .addContainerGap(311, Short.MAX_VALUE))
+                .addContainerGap(268, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
