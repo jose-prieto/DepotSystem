@@ -197,6 +197,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
 
     private void MaterialTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MaterialTextFieldActionPerformed
         // TODO add your handling code here:
+        
     }//GEN-LAST:event_MaterialTextFieldActionPerformed
 
     private void SearchButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SearchButtonActionPerformed

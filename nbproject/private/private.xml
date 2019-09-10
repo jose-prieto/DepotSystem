@@ -5,8 +5,9 @@
         <group>
             <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/OperatorInterfaces/MainWindow.java</file>
             <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/DBController/MaterialCRUD.java</file>
+            <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/OperatorInterfaces/Content/BorrowContentPannel.java</file>
             <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/OperatorInterfaces/Content/AddMaterialContentPannel.java</file>
-            <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/DBController/BorrowCRUD.java</file>
+            <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/DBController/UserCRUD.java</file>
             <file>file:/C:/Users/Jose%20Prieto/Documents/github%20projects/DepotSystem/src/DBController/DBConnection.java</file>
         </group>
     </open-files>
