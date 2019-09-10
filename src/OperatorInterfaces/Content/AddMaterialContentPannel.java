@@ -1,6 +1,10 @@
 package OperatorInterfaces.Content;
 
+import DBController.MaterialCRUD;
+
 public class AddMaterialContentPannel extends javax.swing.JPanel {
+    
+    MaterialCRUD material = new MaterialCRUD();
 
     public AddMaterialContentPannel() {
         initComponents();
@@ -197,6 +201,7 @@ public class AddMaterialContentPannel extends javax.swing.JPanel {
 
     private void SearchButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SearchButtonActionPerformed
         // TODO add your handling code here:
+        material.AddNewMaterial ();
     }//GEN-LAST:event_SearchButtonActionPerformed
 
     private void DepartmentTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DepartmentTextFieldActionPerformed
