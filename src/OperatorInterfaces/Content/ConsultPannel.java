@@ -1,7 +1,14 @@
 package OperatorInterfaces.Content;
 
+import DBController.MaterialCRUD;
+import java.util.ArrayList;
+import java.util.List;
+
 //here is where consult pannel is managed
 public class ConsultPannel extends javax.swing.JPanel {
+    
+    MaterialCRUD material = new MaterialCRUD();
+    List information = new ArrayList();
 
     public ConsultPannel() {
         initComponents();
@@ -209,6 +216,9 @@ public class ConsultPannel extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        ProviderTextField.setText(material.ConsultMaterial(MaterialTextField.getText()));
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void ProviderTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ProviderTextFieldActionPerformed
